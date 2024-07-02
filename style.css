@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border: 1px solid #000;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dataTable,
+.form {
+    border: 1px solid #212121;
+    margin: 20px 40px;
+}
+
+.dataTable tr td {
+    border: 1px solid #000;
+}

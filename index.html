@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD In JS</title>
+</head>
+
+<body>
+    <h1>CRUD in JS</h1>
+
+    <div>
+        <label for="userName">Name</label>
+        <input type="text" id="userName">
+        <button type="button" onclick="onSaveClick()">SAVE</button>
+    </div>
+
+    <table border="1" cellspacing="0">
+        <thead id="thead">
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
